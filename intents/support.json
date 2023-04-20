@@ -1,0 +1,53 @@
+[
+  {
+    "questions": [
+      "your creators email",
+      "your developers email",
+      "email của trang là gì "
+    ],
+    "answers": [
+      "My developer email is hoangmcuong2603@gmail.com."
+    ]
+  },
+  {
+    "questions": [
+      "trang fanpage của các bạn ở đâu ",
+      "tôi muốn ủng hộ cho nhóm ",
+      "facebook là gì"
+    ],
+    "answers": [
+      "Trang fanpage của chúng tôi tại https://www.facebook.com/cmh263"
+    ]
+  },
+  {
+    "questions": [
+      "địa chỉ cửa hàng này ở đâu "
+    ],
+    "answers": [
+      "Địa chỉ cửa hàng của chúng tôi ở 81 Quang Trung - Thanh Khê - TP Đa Nang."
+    ]
+  },
+  {
+    "questions": [
+      "what's the name of your programmer",
+      "who is your teacher",
+      "tell me who is your creator",
+      "who were your creators",
+      "do you know who made you",
+      "and who created you"
+    ],
+    "answers": [
+      "I am developed by manhcuong"
+    ]
+  },
+  {
+    "questions": [
+      "I need to report a bug that I've found in you",
+      "send problem to developers",
+      "bị lỗi"
+    ],
+    "answers": [
+      "You can report your bug at https://github.com/manhcuong2603."
+    ]
+  }
+]
