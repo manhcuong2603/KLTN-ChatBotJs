@@ -2,16 +2,20 @@
   {
     "questions": [
       "bạn có rảnh không",
-      "bạn có bận đó không"
+      "bạn có bận đó không",
+      "bạn rảnh"
     ],
     "answers": [
-      "Tôi luôn có thời gian để trò chuyện với bạn. Bạn muốn trò chuyện?"
+      "Tôi luôn có thời gian để trò chuyện với bạn. Bạn có muốn trò chuyện?"
     ]
   },
   {
     "questions": [
       "hãy nói cho tôi về lợi ích của website này",
-      "hãy nói về lợi ích của website này"
+      "hãy nói về lợi ích của website này",
+      "giới thiệu",
+      "website",
+      "mục đích"
     ],
     "answers": [
       "Website này được thành lập bởi Hội cứu trợ động vật Đà Nẵng. Hội Cứu Trợ Động Vật Đà Nẵng được hình thành từ 01/2013, đến nay đã gần một thập kỷ.Khởi đầu từ một nhóm nhỏ các bạn trẻ với tình yêu thương động vật, hoạt động tự phát và nhỏ lẻ. Trải qua nhiều thăng trầm, Hội Cứu Trợ Động Vật Đà Nẵng đã không ngừng cố gắng vươn lên, tự hoàn thiện tổ chức.Giúp đỡ cứu trợ chó mèo bất hạnh có một cuộc sống tốt hơn, nâng tầm nhận thức phúc lợi động vật cho chủ nuôi chó mèo. Sẵn sàng là ngọn cờ dẫn đầu, lan tỏa tinh thần giúp đỡ động vật, cổ vũ – hỗ trợ các nhóm nhỏ hơn cùng phát triển và đi đúng hướng trên con đường cứu trợ chó mèo!"
@@ -955,7 +959,8 @@
       "lovely day isn't it",
       "howdy",
       "hi there",
-      "hi"
+      "hi",
+      "xin chào"
     ],
     "answers": [
       "Hi there, friend!",

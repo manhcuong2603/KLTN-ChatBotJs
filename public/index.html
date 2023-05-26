@@ -18,52 +18,48 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./src/images/favicon-16x16.png">
 
   <link rel="manifest" href="./site.webmanifest">
-
+  <!-- 
   <link rel="stylesheet" href="./src/styles/normalize.min.css" />
-  <link rel="stylesheet" href="./src/styles/compiled.min.css" />
+   -->
+  <!-- <link rel="stylesheet" href="./src/styles/compiled.min.css" /> -->
+  <link rel="stylesheet" href="./src/styles/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  <header>
-    <div>
-      <h2>ChatBot</h2>
-      <p class="typing">bot is typing. . .</p>
+  <div class="chatbot">
+    <div class="chatbot__header">
+      <div class="title_chatbot">
+        <p>Đặt câu hỏi? </p>
+      </div>
+      <div class="Icon" id="toogle-chat">
+        <i class="fa-regular fa-comment"></i>
+      </div>
     </div>
-    <div id="toogle-chat">
-      <img src="./src/images/chat_icon.png" class="suggest-chat">
-    </div>
-  </header>
 
-  <main>
-  </main>
+    <main class="body_chatbot Input_answer">
 
-  <div class="main-background">
-    <div>
-      <img src="./src/images/dog-face-svgrepo-com.svg" alt="">
-      <p>Xin chào. Chúng tôi giúp gì được cho bạn ?</p>
-    </div>
+    </main>
+
+    <footer class="Input_question">
+      <form id="chat-form">
+        <input type="text" class="chat-input" required>
+        <button type="submit" class="chat-submit">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path
+              d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z" />
+          </svg>
+        </button>
+      </form>
+    </footer>
   </div>
-
-  <section class="all-questions">
-    <h2>Suggested Chats</h2>
-    <div class="questions container"></div>
-  </section>
-
-  <footer>
-    <form id="chat-form">
-      <input type="text" class="chat-input" required>
-      <button type="submit" class="chat-submit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-          viewBox="0 0 24 24">
-          <path
-            d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z" />
-        </svg>
-      </button>
-    </form>
-  </footer>
 
   <script src="./src/javascript/jquery.min.js"></script>
   <script src="./src/javascript/typed.min.js"></script>
   <script src="./src/javascript/app.js"></script>
+  <script src="./src/javascript/bot.js"></script>
 </body>
 
 </html>

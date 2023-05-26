@@ -6,7 +6,7 @@
       "email của trang là gì "
     ],
     "answers": [
-      "My developer email is hoangmcuong2603@gmail.com."
+      "Email của chúng tôi là hoangmcuong2603@gmail.com."
     ]
   },
   {
@@ -16,15 +16,17 @@
       "facebook là gì"
     ],
     "answers": [
-      "Trang fanpage của chúng tôi tại https://www.facebook.com/cmh263"
+      "Trang fanpage của chúng tôi là https://www.facebook.com/cmh263"
     ]
   },
   {
     "questions": [
-      "địa chỉ cửa hàng này ở đâu "
+      "địa chỉ cửa hàng này ở đâu ",
+      "cửa hàng này ở đâu",
+      "địa chỉ"
     ],
     "answers": [
-      "Địa chỉ cửa hàng của chúng tôi ở 81 Quang Trung - Thanh Khê - TP Đa Nang."
+      "Địa chỉ cửa hàng của chúng tôi ở 81 Quang Trung - Thanh Khê - TP Đà Nẵng."
     ]
   },
   {
@@ -47,7 +49,7 @@
       "bị lỗi"
     ],
     "answers": [
-      "You can report your bug at https://github.com/manhcuong2603."
+      "Bạn có thể gửi thông tin lỗi về địa chỉ https://github.com/manhcuong2603."
     ]
   }
 ]

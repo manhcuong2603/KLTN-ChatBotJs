@@ -1,0 +1,143 @@
+.chatbot {
+    /* width: 400px; */
+    /* height: 500px; */
+    /* height: auto; */
+    border: 1px solid #3333;
+    position: absolute;
+    bottom: 1%;
+    right: 3%;
+    border-radius: 10px;
+}
+
+.chatbot__header {
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: #292460;
+    height: 12%;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+
+.chatbot__header:hover {
+    background-color: #393285;
+    border-radius: 0px;
+}
+
+.title_chatbot {
+    margin-left: 10px;
+}
+
+#toogle-chat {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#toogle-chat:hover {
+    border: 2px solid #fff;
+}
+
+/* trả lời */
+
+
+.chat-msg-box {
+    background-color: #f0f0f0;
+    clear: both;
+    float: left;
+    margin-top: 5px;
+    max-width: 200px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.chat-msg-box>p {
+    padding: 12px 10px;
+    word-break: break-word;
+    margin: 0;
+    border-radius: 6px;
+    letter-spacing: -0.01em;
+    line-height: 1.45;
+}
+
+.chat-msg-box.clint {
+    background-color: #7ee0d2;
+    float: right;
+    margin: 15px 20px 0px 0px
+}
+
+.body_chatbot {
+    height: 74%;
+    scroll-snap-type: both mandatory;
+    overflow-y: scroll;
+    background-color: #fff;
+}
+
+
+/* nhập câu hỏi */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 13%;
+    border-top: 1px solid rgb(180, 177, 177);
+}
+
+#chat-form {
+    display: grid;
+    grid-template-columns: 85% 10%;
+    gap: 10px;
+    padding: 20px 10px;
+
+}
+
+#chat-form>input {
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+#chat-form>button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#chat-form>button>svg {
+    fill: #7226e0;
+    z-index: 1;
+    height: 22px;
+    width: 22px;
+}
+
+#chat-form>button>svg:hover {
+    fill: #393285;
+}
+
+
+/* js */
+.Input_answer,
+.Input_question {
+    display: none;
+}
+
+.hidden {
+    display: block;
+}

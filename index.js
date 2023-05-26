@@ -73,7 +73,7 @@ const sendAllQuestions = (req, res) => {
     allQustions.forEach((qus) => {
       if (qus.length >= 15) {
         if (
-          /^(can|are|may|how|what|when|who|do|where|your|from|is|will|why|bạn có|hãy nói|bạn là)/gi.test(
+          /^(can|are|may|how|what|when|who|do|where|your|from|is|will|why|bạn có|hãy nói|bạn là| giới thiệu| website| mục đích)/gi.test(
             qus,
           )
         ) {
@@ -109,7 +109,7 @@ const sendAnswer = async (req, res) => {
     const regExforUnitConverter = /(convert|change|in).{1,2}(\d{1,8})/gim;
     const regExforWikipedia = /(search for|tell me about|what is|who is)(?!.you) (.{1,30})/gim;
     const regExforSupport =
-      /(invented|programmer|teacher|create|maker|who made|creator|developer|bug|email|report|problems|địa chỉ|trang|bị lỗi|ủng hộ|facebook)/gim;
+      /(cửa hàng|programmer|teacher|create|maker|who made|creator|developer|bug|email|report|problems|địa chỉ|trang|bị lỗi|ủng hộ|facebook)/gim;
 
     let similarQuestionObj;
 
